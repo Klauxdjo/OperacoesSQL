@@ -15,10 +15,9 @@ B: 1, 3, 4 e 5
 </pre>
 
 Vejamos os resultados:
-Operação            | Retorno
---------------------+----------------
-*A* UNION ALL *B*   | 1 2 3 1 3 4 5
-*A* UNION *B*       | 1 2 3 4 5
-*A* EXCEPT *B*      | 2
-*A* INTERSECT *B*   | 1 3
-
+ Operação        | Retorno
+-----------------|----------------------
+ *A* UNION ALL *B*   | 1 2 3 1 3 4 5
+ *A* UNION *B*       | 1 2 3 4 5
+ *A* EXCEPT *B*      | 2
+ *A* INTERSECT *B*   | 1 3
