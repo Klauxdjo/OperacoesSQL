@@ -11,10 +11,10 @@ Sejam as tabelas @tbA e @tbB respectivamente os conjuntos _A_ e _B_:
 
 <pre>
 A: 1, 2 e 3
-B: 1, 3, 4 e 5
-</pre>
+B: 1, 3, 4 e 5</pre>
 
 Vejamos os resultados:
+
  Operação        | Retorno
 -----------------|----------------------
  *A* UNION ALL *B*   | 1 2 3 1 3 4 5
