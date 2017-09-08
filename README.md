@@ -18,6 +18,6 @@ Vejamos os resultados:
  SQL |Operação        | Retorno
 -----|----------------|----------------------
  SELECT num FROM @tbA UNION ALL SELECT num FROM @tbB  |*A* UNION ALL *B*   | 1 2 3 1 3 4 5
- SELECT num FROM @tbA UNION ALL SELECT num FROM @tbB  | *A* UNION *B*       | 1 2 3 4 5
- SELECT num FROM @tbA UNION ALL SELECT num FROM @tbB  | *A* EXCEPT *B*      | 2
- SELECT num FROM @tbA UNION ALL SELECT num FROM @tbB  | *A* INTERSECT *B*   | 1 3
+ SELECT num FROM @tbA UNION SELECT num FROM @tbB  | *A* UNION *B*       | 1 2 3 4 5
+ SELECT num FROM @tbA EXCEPT SELECT num FROM @tbB  | *A* EXCEPT *B*      | 2
+ SELECT num FROM @tbA INTERSECT SELECT num FROM @tbB  | *A* INTERSECT *B*   | 1 3
